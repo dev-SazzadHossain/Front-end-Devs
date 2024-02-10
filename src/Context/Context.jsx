@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import React, { createContext, useContext } from "react";
+import React, { createContext } from "react";
 import { AxiosInstance } from "../utils/AxiosInstance";
 export const AuthContext = createContext();
 const loadUsers = async () => {
